@@ -79,7 +79,7 @@ article a{
     border-radius: 50px;
     margin: auto;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
    article{
     background: rgba(255, 0, 0, 0);
     height: 180px;

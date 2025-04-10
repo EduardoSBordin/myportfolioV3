@@ -21,7 +21,7 @@
     width: 80%;
 }
 /* RESPONSIVIDADE - SEÇÃO ABOUT */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .about p {
         font-size: 1.1em;
     }

@@ -81,7 +81,7 @@ a:hover{
     font-size: 3em;
 }
 /* RESPONSIVIDADE GERAL */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .linksHeader {
         flex-direction: row;
         margin-right: 10px;
