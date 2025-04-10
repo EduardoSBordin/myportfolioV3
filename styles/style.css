@@ -31,6 +31,15 @@ header{
     float: right;
     margin-right: 100px;
 }
+.linksHeaderMobile{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 0px;
+    float: right;
+    margin-right: 100px;
+}
 a{
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -82,19 +91,44 @@ a:hover{
 }
 /* RESPONSIVIDADE GERAL */
 @media (max-width: 1000px) {
-    .linksHeader {
+    .linksHeaderMobile {
         flex-direction: row;
         margin-right: 10px;
     }
-    .linksHeader a{
+    .linksHeaderMobile a{
         margin-right: 10px;
     }
-    .linksHeader a:hover{
+    .linksHeaderMobile a:hover{
         transform: scale(1);
     }
     #titleName{
         margin-left: 10px;
         background: rgba(255, 0, 0, 0);
         font-size: 16pt;
+    }
+    .linksHeader{
+        display: none;
+    }
+    .linksHeaderMobile{
+        display: flex;
+    }
+    .modal{
+        display: none;
+        position: fixed;
+        background: black;
+        margin-top: 20vh;
+        gap: 10px;
+        padding-left: 5px;
+        border-radius: 5px;
+    }
+    .modal a{
+        color: #efefed;
+    }
+    .modal.active{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        position: fixed;
     }
 }

@@ -85,6 +85,7 @@ article a{
     height: 180px;
     width: 40vh;
     margin-top: 10px;
+    /* flex-wrap: wrap; */
    }
    .projects{
     height: auto;
@@ -96,5 +97,6 @@ article a{
     padding-bottom: 40px;
     height: auto;
     flex-wrap: wrap;
-}
+    }
+    
 }
