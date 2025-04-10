@@ -15,8 +15,8 @@
     flex-direction: row;
 }
 article{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     overflow: hidden;
     /* transition: height .5s; */
     transition: all ease-in-out .3s;
@@ -29,6 +29,7 @@ article{
     padding-bottom: 20px;
     /* transform: scale(1); */
     color: black;
+
 }
 #articleFreetimeshow:hover{
     height: auto;
@@ -77,4 +78,23 @@ article a{
     padding: 10px;
     border-radius: 50px;
     margin: auto;
+}
+@media (max-width: 800px) {
+   article{
+    background: rgba(255, 0, 0, 0);
+    height: 180px;
+    width: 40vh;
+    margin-top: 10px;
+   }
+   .projects{
+    height: auto;
+    margin-top: 20px;
+   }
+   .projects .articles{
+    background: white;
+    border-radius: 0px 0px 50px 50px;
+    padding-bottom: 40px;
+    height: auto;
+    flex-wrap: wrap;
+}
 }

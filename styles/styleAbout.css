@@ -1,5 +1,7 @@
 .about{
     background: #efefed;
+    display: flex;
+    flex-direction: column;
     /* margin-top: 30px; */
 }
 .about img{
@@ -17,4 +19,24 @@
     font-weight: bolder;
     text-align: center;
     width: 80%;
+}
+/* RESPONSIVIDADE - SEÇÃO ABOUT */
+@media screen and (max-width: 800px) {
+    .about p {
+        font-size: 1.1em;
+    }
+    .imgIcons img{
+        width: 10vh;
+        height: 10vh;
+    }
+    .imgIcons{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .about{
+        height: 60vh;
+    }
 }
