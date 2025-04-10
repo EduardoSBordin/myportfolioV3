@@ -1,0 +1,20 @@
+.about{
+    background: #efefed;
+    /* margin-top: 30px; */
+}
+.about img{
+    width: 25vh;
+    height: 25vh;
+    /* border-radius: 100%; */
+    /* border: 5px solid white; */
+    /* margin-top: 100px; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+.about p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    width: 80%;
+}
